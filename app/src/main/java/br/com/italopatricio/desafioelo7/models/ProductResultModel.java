@@ -16,4 +16,8 @@ public class ProductResultModel implements Serializable {
         return productResultModel;
     }
 
+    public void addProductsModel(List<ProductModel> productModelList) {
+        this.productModelList.addAll(productModelList);
+    }
+
 }
